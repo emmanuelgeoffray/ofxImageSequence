@@ -143,7 +143,7 @@ class ofxImageSequence : public ofBaseHasTexture {
 	bool preloadAllFilenames();		//searches for all filenames based on load input
 	float percentLoaded();
 
-  protected:
+  //protected:
 	ofxImageSequenceLoader* threadLoader;
 
 	vector<ofPixels> sequence;
